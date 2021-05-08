@@ -26,7 +26,7 @@
         "body": [
             "<nav class=\"navbar navbar-expand-lg navbar-light bg-light\">",
             "<div class=\"container-fluid\">",
-            "<a class=\"navbar-brand\" href=\"#\">{1:Your Brand Name here}</a>",
+            "<a class=\"navbar-brand\" href=\"#\">${1:Your Brand Name here}</a>",
             "<button class=\"navbar-toggler\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">",
             "<span class=\"navbar-toggler-icon\"></span>",
             "</button>",
@@ -67,7 +67,7 @@
         "prefix": "!bs5alert",
         "body": [
             "<div class=\"alert alert-warning alert-dismissible fade show\" role=\"alert\">",
-            "{1:Your alert content here}",
+            "${1:Your alert content here}",
             "<button type=\"button\" class=\"btn-close\" data-bs-dismiss=\"alert\" aria-label=\"Close\"></button>",
             "</div>"
         ],
@@ -76,14 +76,14 @@
     "Pill Badge boilerplate Bootstrap 5": {
         "prefix": "!bs5pillbadge",
         "body": [
-            "<span class=\"badge rounded-pill bg-primary\">{1:Primary}</span>"
+            "<span class=\"badge rounded-pill bg-primary\">${1:Primary}</span>"
         ],
         "description": "Creates Bootstrap 5 Pill Badge code"
     },
     "Simple Badge boilerplate Bootstrap 5": {
         "prefix": "!bs5badge",
         "body": [
-            "<span class=\"badge bg-primary\">{1:Primary}</span>"
+            "<span class=\"badge bg-primary\">${1:Primary}</span>"
         ],
         "description": "Creates Bootstrap 5 Badge code"
     },
@@ -114,35 +114,35 @@
     "Link Button boilerplate Bootstrap 5": {
         "prefix": "!bs5btnlink",
         "body": [
-            "<a class=\"btn btn-primary\" href=\"#\" role=\"button\">{1: Button Name here}</a>"
+            "<a class=\"btn btn-primary\" href=\"#\" role=\"button\">${1: Button Name here}</a>"
         ],
         "description": "Creates Bootstrap 5 link button code"
     },
     "Simple Button boilerplate Bootstrap 5": {
         "prefix": "!bs5btn",
         "body": [
-            "<a class=\"btn btn-primary\" href=\"#\" role=\"button\">{1: Button Name here}</a>"
+            "<a class=\"btn btn-primary\" href=\"#\" role=\"button\">${1: Button Name here}</a>"
         ],
         "description": "Creates Bootstrap 5 simple button code"
     },
     "Outline Simple Button boilerplate Bootstrap 5": {
         "prefix": "!bs5btnoutline",
         "body": [
-            "<a class=\"btn btn-outline-primary\" href=\"#\" role=\"button\">{1: Button Name here}</a>"
+            "<a class=\"btn btn-outline-primary\" href=\"#\" role=\"button\">${1: Button Name here}</a>"
         ],
         "description": "Creates Bootstrap 5 outline button code"
     },
     "Large Button boilerplate Bootstrap 5": {
         "prefix": "!bs5btnlarge",
         "body": [
-            "<a class=\"btn btn-outline-primary btn-lg\" href=\"#\" role=\"button\">{1: Button Name here}</a>"
+            "<a class=\"btn btn-outline-primary btn-lg\" href=\"#\" role=\"button\">${1: Button Name here}</a>"
         ],
         "description": "Creates Bootstrap 5 large button code"
     },
     "Small Button boilerplate Bootstrap 5": {
         "prefix": "!bs5btnsmall",
         "body": [
-            "<a class=\"btn btn-outline-primary btn-sm\" href=\"#\" role=\"button\">{1: Button Name here}</a>"
+            "<a class=\"btn btn-outline-primary btn-sm\" href=\"#\" role=\"button\">${1: Button Name here}</a>"
         ],
         "description": "Creates Bootstrap 5 small button code"
     },
@@ -150,9 +150,9 @@
         "prefix": "!bs5btngroup",
         "body": [
             "<div class=\"btn-group\" role=\"group\" aria-label=\"Basic example\">",
-            "<button type=\"button\" class=\"btn btn-primary\">{1:Left}</button>",
-            "<button type=\"button\" class=\"btn btn-primary\">{2:Middle}</button>",
-            "<button type=\"button\" class=\"btn btn-primary\">{3:Right}</button>",
+            "<button type=\"button\" class=\"btn btn-primary\">${1:Left}</button>",
+            "<button type=\"button\" class=\"btn btn-primary\">${2:Middle}</button>",
+            "<button type=\"button\" class=\"btn btn-primary\">${3:Right}</button>",
             "</div>"
         ],
         "description": "Creates Bootstrap 5 button group code"
@@ -161,9 +161,9 @@
         "prefix": "!bs5btngroupoutline",
         "body": [
             "<div class=\"btn-group\" role=\"group\" aria-label=\"Basic example\">",
-            "<button type=\"button\" class=\"btn btn-outline-primary\">{1:Left}</button>",
-            "<button type=\"button\" class=\"btn btn-outline-primary\">{2:Middle}</button>",
-            "<button type=\"button\" class=\"btn btn-outline-primary\">{3:Right}</button>",
+            "<button type=\"button\" class=\"btn btn-outline-primary\">${1:Left}</button>",
+            "<button type=\"button\" class=\"btn btn-outline-primary\">${2:Middle}</button>",
+            "<button type=\"button\" class=\"btn btn-outline-primary\">${3:Right}</button>",
             "</div>"
         ],
         "description": "Creates Bootstrap 5 button outline group code"
