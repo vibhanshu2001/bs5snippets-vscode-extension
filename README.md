@@ -1,5 +1,10 @@
-# bs5snippets README
-Use !bs5 to get the whole bootstrap 5 template.
+# bs5snippets
+> This is the README for the extension "bs5snippets". You may download the extension using the below button.
+> Or just search for bs5snippts in vscode extension section and then download it.
+
+[![Install extension button](https://res.cloudinary.com/saurabhdaware/image/upload/v1564401766/saurabhdaware.in/otherAssets/iebutton.png)](https://marketplace.visualstudio.com/items?itemName=VibhanshuGarg.bs5snippets)
+
+## Preview
 ![ezgif com-video-to-gif](https://user-images.githubusercontent.com/64217477/117545083-f1bd2600-b041-11eb-9cc7-fc9a3320e5b3.gif)
 
 This is a bootstrap 5 snippet generator by Vibhanshu Garg which will help you get the latest bootstrap 5 code in your html/react file.
