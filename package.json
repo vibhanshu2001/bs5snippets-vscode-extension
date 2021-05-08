@@ -1,8 +1,8 @@
 {
     "name": "bs5snippets",
     "displayName": "bs5snippets",
-    "description": "Simple bootstrap 5 snippets generator",
-    "version": "2.1.1",
+    "description": "Advanced Bootstrap 5 snippets generator",
+    "version": "2.1.2",
     "publisher": "VibhanshuGarg",
     "repository": {
         "type": "git",
@@ -16,6 +16,20 @@
     ],
     "icon": "icon.jpg",
     "contributes": {
+        "commands":[
+            {
+                "command": "!bs5",
+                "title": "Bootstrap 5 boilerplate with cdn links"
+            },
+            {
+                "command": "!bs5nav",
+                "title": "Bootstrap 5 navbar"
+            },
+            {
+                "command": "!bs5alert",
+                "title": "Bootstrap 5 alert"
+            }
+        ],
         "snippets": [
             {
                 "language": "html",

@@ -1,7 +1,10 @@
 # Change Log
 
-Hey extension user, please go through these change in logs of extension.
+Hey extension user, please go through these change in logs of extension if you are interested.
 
+## [2.1.2]
+
+- Updated package lock json file
 
 ## [2.1.1]
 

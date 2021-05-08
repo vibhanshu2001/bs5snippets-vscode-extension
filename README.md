@@ -13,6 +13,10 @@ This is a bootstrap 5 snippet generator by Vibhanshu Garg which will help you ge
 
 Easily the whole code with all the cdn links will be pasted to your environment.
 
+## [2.1.2]
+
+Updated package lock json file
+
 ## [2.1.1]
 
 Fixed small bugs
