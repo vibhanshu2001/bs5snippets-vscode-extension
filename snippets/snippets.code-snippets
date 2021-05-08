@@ -1,5 +1,5 @@
 {
-    "Vibhanshu Garg | Bootstrap 5 HTML Template": {
+    "Bootstrap 5 HTML Boilerpplate": {
         "prefix": "!bs5",
         "body": [
             "<!doctype html>",
@@ -20,5 +20,153 @@
             "</html>"
         ],
         "description": "Creates Bootstrap 5 starter template"
-    }
+    },
+    "Navbar boilerplate Bootstrap 5": {
+        "prefix": "!bs5nav",
+        "body": [
+            "<nav class=\"navbar navbar-expand-lg navbar-light bg-light\">",
+            "<div class=\"container-fluid\">",
+            "<a class=\"navbar-brand\" href=\"#\">{1:Your Brand Name here}</a>",
+            "<button class=\"navbar-toggler\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">",
+            "<span class=\"navbar-toggler-icon\"></span>",
+            "</button>",
+            "<div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">",
+            "<ul class=\"navbar-nav me-auto mb-2 mb-lg-0\">",
+            "<li class=\"nav-item\">",
+            "<a class=\"nav-link active\" aria-current=\"page\" href=\"#\">Home</a>",
+            "</li>",
+            "<li class=\"nav-item\">",
+            "<a class=\"nav-link\" href=\"#\">Link</a>",
+            "</li>",
+            "<li class=\"nav-item dropdown\">",
+            "<a class=\"nav-link dropdown-toggle\" href=\"#\" id=\"navbarDropdown\" role=\"button\" data-bs-toggle=\"dropdown\" aria-expanded=\"false\">",
+            "Dropdown",
+            "</a>",
+            "<ul class=\"dropdown-menu\" aria-labelledby=\"navbarDropdown\">",
+            "<li><a class=\"dropdown-item\" href=\"#\">Action</a></li>",
+            "<li><a class=\"dropdown-item\" href=\"#\">Another action</a></li>",
+            "<li><hr class=\"dropdown-divider\"></li>",
+            "<li><a class=\"dropdown-item\" href=\"#\">Something else here</a></li>",
+            "</ul>",
+            "</li>",
+            "<li class=\"nav-item\">",
+            "<a class=\"nav-link disabled\" href=\"#\" tabindex=\"-1\" aria-disabled=\"true\">Disabled</a>",
+            "</li>",
+            "</ul>",
+            "<form class=\"d-flex\">",
+            "<input class=\"form-control me-2\" type=\"search\" placeholder=\"Search\" aria-label=\"Search\">",
+            "<button class=\"btn btn-outline-success\" type=\"submit\">Search</button>",
+            "</form>",
+            "</div>",
+            "</div>",
+            "</nav>"
+        ],
+        "description": "Creates Bootstrap 5 navbar code"
+    },
+    "Alert boilerplate Bootstrap 5": {
+        "prefix": "!bs5alert",
+        "body": [
+            "<div class=\"alert alert-warning alert-dismissible fade show\" role=\"alert\">",
+            "{1:Your alert content here}",
+            "<button type=\"button\" class=\"btn-close\" data-bs-dismiss=\"alert\" aria-label=\"Close\"></button>",
+            "</div>"
+        ],
+        "description": "Creates Bootstrap 5 alert code"
+    },
+    "Pill Badge boilerplate Bootstrap 5": {
+        "prefix": "!bs5pillbadge",
+        "body": [
+            "<span class=\"badge rounded-pill bg-primary\">{1:Primary}</span>"
+        ],
+        "description": "Creates Bootstrap 5 Pill Badge code"
+    },
+    "Simple Badge boilerplate Bootstrap 5": {
+        "prefix": "!bs5badge",
+        "body": [
+            "<span class=\"badge bg-primary\">{1:Primary}</span>"
+        ],
+        "description": "Creates Bootstrap 5 Badge code"
+    },
+    "Breadcrumb boilerplate Bootstrap 5": {
+        "prefix": "!bs5breadcrumb",
+        "body": [
+            "<nav aria-label=\"breadcrumb\">",
+            "<ol class=\"breadcrumb\">",
+            "<li class=\"breadcrumb-item active\" aria-current=\"page\">Home</li>",
+            "</ol>",
+            "</nav>",
+            "<nav aria-label=\"breadcrumb\">",
+            "<ol class=\"breadcrumb\">",
+            "<li class=\"breadcrumb-item\"><a href=\"#\">Home</a></li>",
+            "<li class=\"breadcrumb-item active\" aria-current=\"page\">Library</li>",
+            "</ol>",
+            "</nav>",
+            "<nav aria-label=\"breadcrumb\">",
+            "<ol class=\"breadcrumb\">",
+            "<li class=\"breadcrumb-item\"><a href=\"#\">Home</a></li>",
+            "<li class=\"breadcrumb-item\"><a href=\"#\">Library</a></li>",
+            "<li class=\"breadcrumb-item active\" aria-current=\"page\">Data</li>",
+            "</ol>",
+            "</nav>",
+        ],
+        "description": "Creates Bootstrap 5 breadcrumb code"
+    },
+    "Link Button boilerplate Bootstrap 5": {
+        "prefix": "!bs5btnlink",
+        "body": [
+            "<a class=\"btn btn-primary\" href=\"#\" role=\"button\">{1: Button Name here}</a>"
+        ],
+        "description": "Creates Bootstrap 5 link button code"
+    },
+    "Simple Button boilerplate Bootstrap 5": {
+        "prefix": "!bs5btn",
+        "body": [
+            "<a class=\"btn btn-primary\" href=\"#\" role=\"button\">{1: Button Name here}</a>"
+        ],
+        "description": "Creates Bootstrap 5 simple button code"
+    },
+    "Outline Simple Button boilerplate Bootstrap 5": {
+        "prefix": "!bs5btnoutline",
+        "body": [
+            "<a class=\"btn btn-outline-primary\" href=\"#\" role=\"button\">{1: Button Name here}</a>"
+        ],
+        "description": "Creates Bootstrap 5 outline button code"
+    },
+    "Large Button boilerplate Bootstrap 5": {
+        "prefix": "!bs5btnlarge",
+        "body": [
+            "<a class=\"btn btn-outline-primary btn-lg\" href=\"#\" role=\"button\">{1: Button Name here}</a>"
+        ],
+        "description": "Creates Bootstrap 5 large button code"
+    },
+    "Small Button boilerplate Bootstrap 5": {
+        "prefix": "!bs5btnsmall",
+        "body": [
+            "<a class=\"btn btn-outline-primary btn-sm\" href=\"#\" role=\"button\">{1: Button Name here}</a>"
+        ],
+        "description": "Creates Bootstrap 5 small button code"
+    },
+    "Button Group boilerplate Bootstrap 5": {
+        "prefix": "!bs5btngroup",
+        "body": [
+            "<div class=\"btn-group\" role=\"group\" aria-label=\"Basic example\">",
+            "<button type=\"button\" class=\"btn btn-primary\">{1:Left}</button>",
+            "<button type=\"button\" class=\"btn btn-primary\">{2:Middle}</button>",
+            "<button type=\"button\" class=\"btn btn-primary\">{3:Right}</button>",
+            "</div>"
+        ],
+        "description": "Creates Bootstrap 5 button group code"
+    },
+    "Button Outline Group boilerplate Bootstrap 5": {
+        "prefix": "!bs5btngroupoutline",
+        "body": [
+            "<div class=\"btn-group\" role=\"group\" aria-label=\"Basic example\">",
+            "<button type=\"button\" class=\"btn btn-outline-primary\">{1:Left}</button>",
+            "<button type=\"button\" class=\"btn btn-outline-primary\">{2:Middle}</button>",
+            "<button type=\"button\" class=\"btn btn-outline-primary\">{3:Right}</button>",
+            "</div>"
+        ],
+        "description": "Creates Bootstrap 5 button outline group code"
+    },
+
 }

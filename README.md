@@ -8,6 +8,10 @@ This is a bootstrap 5 snippet generator which will help you get the latest boots
 
 Easily the whole code with all the cdn links will be pasted to your environment.
 
+### [2.1.0]
+
+Added the extension icon.
+
 ### [2.0.1]
 
 Added the extension icon.
