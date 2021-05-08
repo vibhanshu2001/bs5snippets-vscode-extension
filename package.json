@@ -1,0 +1,38 @@
+{
+    "name": "bs5snippets",
+    "displayName": "bs5snippets",
+    "description": "Simple bootstrap 5 snippets generator",
+    "version": "2.0.1",
+    "publisher": "VibhanshuGarg",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/vibhanshu2001/bs5snippets-vscode-extension"
+    },
+    "engines": {
+        "vscode": "^1.56.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "icon": "icon.jpg",
+    "contributes": {
+        "snippets": [
+            {
+                "language": "html",
+                "path": "./snippets/snippets.code-snippets"
+            },
+            {
+                "language": "javascript",
+                "path": "./snippets/snippets.code-snippets"
+            },
+            {
+                "language": "javascriptreact",
+                "path": "./snippets/snippets.code-snippets"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/snippets.code-snippets"
+            }
+        ]
+    }
+}
