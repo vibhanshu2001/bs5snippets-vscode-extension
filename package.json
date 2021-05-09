@@ -2,7 +2,7 @@
     "name": "bs5snippets",
     "displayName": "bs5snippets",
     "description": "Advanced Bootstrap 5 snippets generator",
-    "version": "2.1.2",
+    "version": "2.2.1",
     "publisher": "VibhanshuGarg",
     "repository": {
         "type": "git",
@@ -28,6 +28,98 @@
             {
                 "command": "!bs5alert",
                 "title": "Bootstrap 5 alert"
+            },
+            {
+                "command": "!bs5pillbadge",
+                "title": "Bootstrap 5 pill badge"
+            },
+            {
+                "command": "!bs5badge",
+                "title": "Bootstrap 5 simple badge"
+            },
+            {
+                "command": "!bs5breadcrumb",
+                "title": "Bootstrap 5 breadcrumb"
+            },
+            {
+                "command": "!bs5btnlink",
+                "title": "Bootstrap 5 link button"
+            },
+            {
+                "command": "!bs5btn",
+                "title": "Bootstrap 5 simple button"
+            },{
+                "command": "!bs5btnoutline",
+                "title": "Bootstrap 5 outline button"
+            },{
+                "command": "!bs5btnlg",
+                "title": "Bootstrap 5 large button"
+            },{
+                "command": "!bs5btnsm",
+                "title": "Bootstrap 5 small button"
+            },{
+                "command": "!bs5btngroup",
+                "title": "Bootstrap 5 button group"
+            },{
+                "command": "!bs5btngroupoutline",
+                "title": "Bootstrap 5 button outline group"
+            },{
+                "command": "!bs5ccard",
+                "title": "Bootstrap 5 card"
+            },{
+                "command": "!bs5cardgroup",
+                "title": "Bootstrap 5 card group"
+            },{
+                "command": "!bs5carousel",
+                "title": "Bootstrap 5 carousel"
+            },{
+                "command": "!bs5closebtn",
+                "title": "Bootstrap 5 close button"
+            },{
+                "command": "!bs5dropdownbtn",
+                "title": "Bootstrap 5 dropdown button"
+            },{
+                "command": "!bs5dropdownlink",
+                "title": "Bootstrap 5 dropdown link"
+            },{
+                "command": "!bs5listgroup",
+                "title": "Bootstrap 5 list group"
+            },{
+                "command": "!bs5listgroupflush",
+                "title": "Bootstrap 5 list group flush"
+            },{
+                "command": "!bs5listgroupbadge",
+                "title": "Bootstrap 5 list group badge"
+            },{
+                "command": "!bs5modal",
+                "title": "Bootstrap 5 modal"
+            },{
+                "command": "!bs5tabs",
+                "title": "Bootstrap 5 tabs"
+            },{
+                "command": "!bs5tabsvertical",
+                "title": "Bootstrap 5 tabs vertical"
+            },{
+                "command": "!bs5offcanvas",
+                "title": "Bootstrap 5 offcanvas"
+            },{
+                "command": "!bs5pagination",
+                "title": "Bootstrap 5 pagination"
+            },{
+                "command": "!bs5progress",
+                "title": "Bootstrap 5 progress bar"
+            },{
+                "command": "!bs5spinnercircular",
+                "title": "Bootstrap 5 circular spinner"
+            },{
+                "command": "!bs5spinnergrowing",
+                "title": "Bootstrap 5 growing spinner"
+            },{
+                "command": "!bs5toast",
+                "title": "Bootstrap 5 toast"
+            },{
+                "command": "!bs5tooltip",
+                "title": "Bootstrap 5 tooltip"
             }
         ],
         "snippets": [

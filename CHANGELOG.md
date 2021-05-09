@@ -2,6 +2,10 @@
 
 Hey extension user, please go through these change in logs of extension if you are interested.
 
+## [2.2.1]
+
+- Updated more snippets codes
+
 ## [2.1.2]
 
 - Updated package lock json file

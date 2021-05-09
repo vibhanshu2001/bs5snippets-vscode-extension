@@ -168,5 +168,349 @@
         ],
         "description": "Creates Bootstrap 5 button outline group code"
     },
+    "Card boilerplate Bootstrap 5": {
+        "prefix": "!bs5card",
+        "body": [
+            "<div class=\"card\" style=\"width: 18rem;\">",
+            "<img src=\"...\" class=\"card-img-top\" alt=\"...\">",
+            "<div class=\"card-body\">",
+            "<h5 class=\"card-title\">${1:Card title}</h5>",
+            "<p class=\"card-text\">${2:Card body}</p>",
+            "<a href=\"#\" class=\"btn btn-primary\">Go somewhere</a>",
+            "</div>",
+            "</div>"
+        ],
+        "description": "Creates Bootstrap 5 card code"
+    },
+    "Card Group boilerplate Bootstrap 5": {
+        "prefix": "!bs5cardgroup",
+        "body": [
+            "<div class=\"card-group\">",
+            "<div class=\"card\">",
+            "<img src=\"...\" class=\"card-img-top\" alt=\"...\">",
+            "<div class=\"card-body\">",
+            "<h5 class=\"card-title\">Card title</h5>",
+            "<p class=\"card-text\">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>",
+            "</div>",
+            "<div class=\"card-footer\">",
+            "<small class=\"text-muted\">Last updated 3 mins ago</small>",
+            "</div>",
+            "</div>",
+            "<div class=\"card\">",
+            "<img src=\"...\" class=\"card-img-top\" alt=\"...\">",
+            "<div class=\"card-body\">",
+            "<h5 class=\"card-title\">Card title</h5>",
+            "<p class=\"card-text\">This card has supporting text below as a natural lead-in to additional content.</p>",
+            "</div>",
+            "<div class=\"card-footer\">",
+            "<small class=\"text-muted\">Last updated 3 mins ago</small>",
+            "</div>",
+            "</div>",
+            "<div class=\"card\">",
+            "<img src=\"...\" class=\"card-img-top\" alt=\"...\">",
+            "<div class=\"card-body\">",
+            "<h5 class=\"card-title\">Card title</h5>",
+            "<p class=\"card-text\">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>",
+            "</div>",
+            "<div class=\"card-footer\">",
+            "<small class=\"text-muted\">Last updated 3 mins ago</small>",
+            "</div>",
+            "</div>",
+            "</div>"
+        ],
+        "description": "Creates Bootstrap 5 card group code"
+    },
+    "Carousel boilerplate Bootstrap 5": {
+        "prefix": "!bs5carousel",
+        "body": [
+            "<div id=\"carouselExampleIndicators\" class=\"carousel slide\" data-bs-ride=\"carousel\">",
+            "<div class=\"carousel-indicators\">",
+            "<button type=\"button\" data-bs-target=\"#carouselExampleIndicators\" data-bs-slide-to=\"0\" class=\"active\" aria-current=\"true\" aria-label=\"Slide 1\"></button>",
+            "<button type=\"button\" data-bs-target=\"#carouselExampleIndicators\" data-bs-slide-to=\"1\" aria-label=\"Slide 2\"></button>",
+            "<button type=\"button\" data-bs-target=\"#carouselExampleIndicators\" data-bs-slide-to=\"2\" aria-label=\"Slide 3\"></button>",
+            "</div>",
+            "<div class=\"carousel-inner\">",
+            "<div class=\"carousel-item active\">",
+            "<img src=\"...\" class=\"d-block w-100\" alt=\"...\">",
+            "</div>",
+            "<div class=\"carousel-item\">",
+            "<img src=\"...\" class=\"d-block w-100\" alt=\"...\">",
+            "</div>",
+            "<div class=\"carousel-item\">",
+            "<img src=\"...\" class=\"d-block w-100\" alt=\"...\">",
+            "</div>",
+            "</div>",
+            "<button class=\"carousel-control-prev\" type=\"button\" data-bs-target=\"#carouselExampleIndicators\" data-bs-slide=\"prev\">",
+            "<span class=\"carousel-control-prev-icon\" aria-hidden=\"true\"></span>",
+            "<span class=\"visually-hidden\">Previous</span>",
+            "</button>",
+            "<button class=\"carousel-control-next\" type=\"button\" data-bs-target=\"#carouselExampleIndicators\" data-bs-slide=\"next\">",
+            "<span class=\"carousel-control-next-icon\" aria-hidden=\"true\"></span>",
+            "<span class=\"visually-hidden\">Next</span>",
+            "</button>",
+            "</div>"
+        ],
+        "description": "Creates Bootstrap 5 carousel code"
+    },
+    "Close Button boilerplate Bootstrap 5": {
+        "prefix": "!bs5closebtn",
+        "body": [
+            "<button type=\"button\" class=\"btn-close\" aria-label=\"Close\"></button>"
+        ],
+        "description": "Creates Bootstrap 5 close button code"
+    },
+    "Dropdown Button boilerplate Bootstrap 5": {
+        "prefix": "!bs5dropdownbtn",
+        "body": [
+            "<div class=\"dropdown\">",
+            "<button class=\"btn btn-secondary dropdown-toggle\" type=\"button\" id=\"dropdownMenuButton1\" data-bs-toggle=\"dropdown\" aria-expanded=\"false\">",
+            "Dropdown button",
+            "</button>",
+            "<ul class=\"dropdown-menu\" aria-labelledby=\"dropdownMenuButton1\">",
+            "<li><a class=\"dropdown-item\" href=\"#\">Action</a></li>",
+            "<li><a class=\"dropdown-item\" href=\"#\">Another action</a></li>",
+            "<li><a class=\"dropdown-item\" href=\"#\">Something else here</a></li>",
+            "</ul>",
+            "</div>"
+        ],
+        "description": "Creates Bootstrap 5 dropdown button code"
+    },
+    "Dropdown Link boilerplate Bootstrap 5": {
+        "prefix": "!bs5dropdownlink",
+        "body": [
+            "<div class=\"dropdown\">",
+            "<a class=\"btn btn-secondary dropdown-toggle\" href=\"#\" role=\"button\" id=\"dropdownMenuLink\" data-bs-toggle=\"dropdown\" aria-expanded=\"false\">",
+            "Dropdown link",
+            "</a>",
+            "<ul class=\"dropdown-menu\" aria-labelledby=\"dropdownMenuLink\">",
+            "<li><a class=\"dropdown-item\" href=\"#\">Action</a></li>",
+            "<li><a class=\"dropdown-item\" href=\"#\">Another action</a></li>",
+            "<li><a class=\"dropdown-item\" href=\"#\">Something else here</a></li>",
+            "</ul>",
+            "</div>"
+        ],
+        "description": "Creates Bootstrap 5 dropdown link code"
+    },
+    "List group boilerplate Bootstrap 5": {
+        "prefix": "!bs5listgroup",
+        "body": [
+            "<ul class=\"list-group\">",
+            "<li class=\"list-group-item\">An item</li>",
+            "<li class=\"list-group-item\">A second item</li>",
+            "<li class=\"list-group-item\">A third item</li>",
+            "<li class=\"list-group-item\">A fourth item</li>",
+            "<li class=\"list-group-item\">And a fifth one</li>",
+            "</ul>"
+        ],
+        "description": "Creates Bootstrap 5 list group code"
+    },
+    "List group flush boilerplate Bootstrap 5": {
+        "prefix": "!bs5listgroupflush",
+        "body": [
+            "<ul class=\"list-group list-group-flush\">",
+            "<li class=\"list-group-item\">An item</li>",
+            "<li class=\"list-group-item\">A second item</li>",
+            "<li class=\"list-group-item\">A third item</li>",
+            "<li class=\"list-group-item\">A fourth item</li>",
+            "<li class=\"list-group-item\">And a fifth one</li>",
+            "</ul>"
+        ],
+        "description": "Creates Bootstrap 5 list group flush code"
+    },
+    "List group badge boilerplate Bootstrap 5": {
+        "prefix": "!bs5listgroupbadge",
+        "body": [
+            "<ul class=\"list-group\">",
+            "<li class=\"list-group-item d-flex justify-content-between align-items-center\">",
+            "A list item",
+            "<span class=\"badge bg-primary rounded-pill\">14</span>",
+            "</li>",
+            "<li class=\"list-group-item d-flex justify-content-between align-items-center\">",
+            "A second list item",
+            "<span class=\"badge bg-primary rounded-pill\">2</span>",
+            "</li>",
+            "<li class=\"list-group-item d-flex justify-content-between align-items-center\">",
+            "A third list item",
+            "<span class=\"badge bg-primary rounded-pill\">1</span>",
+            "</li>",
+            "</ul>"
+        ],
+        "description": "Creates Bootstrap 5 list group badge code"
+    },
+    "Modal boilerplate Bootstrap 5": {
+        "prefix": "!bs5modal",
+        "body": [
+            "<button type=\"button\" class=\"btn btn-primary\" data-bs-toggle=\"modal\" data-bs-target=\"#exampleModal\">",
+            "Launch demo modal",
+            "</button>",
+            "<div class=\"modal fade\" id=\"exampleModal\" tabindex=\"-1\" aria-labelledby=\"exampleModalLabel\" aria-hidden=\"true\">",
+            "<div class=\"modal-dialog\">",
+            "<div class=\"modal-content\">",
+            "<div class=\"modal-header\">",
+            "<h5 class=\"modal-title\" id=\"exampleModalLabel\">Modal title</h5>",
+            "<button type=\"button\" class=\"btn-close\" data-bs-dismiss=\"modal\" aria-label=\"Close\"></button>",
+            "</div>",
+            "<div class=\"modal-body\">",
+            "...",
+            "</div>",
+            "<div class=\"modal-footer\">",
+            "<button type=\"button\" class=\"btn btn-secondary\" data-bs-dismiss=\"modal\">Close</button>",
+            "<button type=\"button\" class=\"btn btn-primary\">Save changes</button>",
+            "</div>",
+            "</div>",
+            "</div>",
+            "</div>"
+        ],
+        "description": "Creates Bootstrap 5 Modal code"
+    },
+    "Tabs boilerplate Bootstrap 5": {
+        "prefix": "!bs5tabs",
+        "body": [
+            "<ul class=\"nav nav-pills mb-3\" id=\"pills-tab\" role=\"tablist\">",
+            "<li class=\"nav-item\" role=\"presentation\">",
+            "<button class=\"nav-link active\" id=\"pills-home-tab\" data-bs-toggle=\"pill\" data-bs-target=\"#pills-home\" type=\"button\" role=\"tab\" aria-controls=\"pills-home\" aria-selected=\"true\">Home</button>",
+            "</li>",
+            "<li class=\"nav-item\" role=\"presentation\">",
+            "<button class=\"nav-link\" id=\"pills-profile-tab\" data-bs-toggle=\"pill\" data-bs-target=\"#pills-profile\" type=\"button\" role=\"tab\" aria-controls=\"pills-profile\" aria-selected=\"false\">Profile</button>",
+            "</li>",
+            "<li class=\"nav-item\" role=\"presentation\">",
+            "<button class=\"nav-link\" id=\"pills-contact-tab\" data-bs-toggle=\"pill\" data-bs-target=\"#pills-contact\" type=\"button\" role=\"tab\" aria-controls=\"pills-contact\" aria-selected=\"false\">Contact</button>",
+            "</li>",
+            "</ul>",
+            "<div class=\"tab-content\" id=\"pills-tabContent\">",
+            "<div class=\"tab-pane fade show active\" id=\"pills-home\" role=\"tabpanel\" aria-labelledby=\"pills-home-tab\">...</div>",
+            "<div class=\"tab-pane fade\" id=\"pills-profile\" role=\"tabpanel\" aria-labelledby=\"pills-profile-tab\">...</div>",
+            "<div class=\"tab-pane fade\" id=\"pills-contact\" role=\"tabpanel\" aria-labelledby=\"pills-contact-tab\">...</div>",
+            "</div>",
+        ],
+        "description": "Creates Bootstrap 5 tab bar code"
+    },
+    "Vertical Tabs boilerplate Bootstrap 5": {
+        "prefix": "!bs5tabsvertical",
+        "body": [
+            "<div class=\"d-flex align-items-start\">",
+            "<div class=\"nav flex-column nav-pills me-3\" id=\"v-pills-tab\" role=\"tablist\" aria-orientation=\"vertical\">",
+            "<button class=\"nav-link active\" id=\"v-pills-home-tab\" data-bs-toggle=\"pill\" data-bs-target=\"#v-pills-home\" type=\"button\" role=\"tab\" aria-controls=\"v-pills-home\" aria-selected=\"true\">Home</button>",
+            "<button class=\"nav-link\" id=\"v-pills-profile-tab\" data-bs-toggle=\"pill\" data-bs-target=\"#v-pills-profile\" type=\"button\" role=\"tab\" aria-controls=\"v-pills-profile\" aria-selected=\"false\">Profile</button>",
+            "<button class=\"nav-link\" id=\"v-pills-messages-tab\" data-bs-toggle=\"pill\" data-bs-target=\"#v-pills-messages\" type=\"button\" role=\"tab\" aria-controls=\"v-pills-messages\" aria-selected=\"false\">Messages</button>",
+            "<button class=\"nav-link\" id=\"v-pills-settings-tab\" data-bs-toggle=\"pill\" data-bs-target=\"#v-pills-settings\" type=\"button\" role=\"tab\" aria-controls=\"v-pills-settings\" aria-selected=\"false\">Settings</button>",
+            "</div>",
+            "<div class=\"tab-content\" id=\"v-pills-tabContent\">",
+            "<div class=\"tab-pane fade show active\" id=\"v-pills-home\" role=\"tabpanel\" aria-labelledby=\"v-pills-home-tab\">...</div>",
+            "<div class=\"tab-pane fade\" id=\"v-pills-profile\" role=\"tabpanel\" aria-labelledby=\"v-pills-profile-tab\">...</div>",
+            "<div class=\"tab-pane fade\" id=\"v-pills-messages\" role=\"tabpanel\" aria-labelledby=\"v-pills-messages-tab\">...</div>",
+            "<div class=\"tab-pane fade\" id=\"v-pills-settings\" role=\"tabpanel\" aria-labelledby=\"v-pills-settings-tab\">...</div>",
+            "</div>",
+            "</div>"
+        ],
+        "description": "Creates Bootstrap 5 vertical tabs code"
+    },
+    "Offcanvas boilerplate Bootstrap 5": {
+        "prefix": "!bs5offcanvas",
+        "body": [
+            "<button class=\"btn btn-primary\" type=\"button\" data-bs-toggle=\"offcanvas\" data-bs-target=\"#offcanvasExample\" aria-controls=\"offcanvasExample\">",
+            "Button with data-bs-target",
+            "</button>",
+            "<div class=\"offcanvas offcanvas-start\" tabindex=\"-1\" id=\"offcanvasExample\" aria-labelledby=\"offcanvasExampleLabel\">",
+            "<div class=\"offcanvas-header\">",
+            "<h5 class=\"offcanvas-title\" id=\"offcanvasExampleLabel\">Offcanvas</h5>",
+            "<button type=\"button\" class=\"btn-close text-reset\" data-bs-dismiss=\"offcanvas\" aria-label=\"Close\"></button>",
+            "</div>",
+            "<div class=\"offcanvas-body\">",
+            "<div>",
+            "Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images, lists, etc.",
+            "</div>",
+            "<div class=\"dropdown mt-3\">",
+            "<button class=\"btn btn-secondary dropdown-toggle\" type=\"button\" id=\"dropdownMenuButton\" data-bs-toggle=\"dropdown\">",
+            "Dropdown button",
+            "</button>",
+            "<ul class=\"dropdown-menu\" aria-labelledby=\"dropdownMenuButton\">",
+            "<li><a class=\"dropdown-item\" href=\"#\">Action</a></li>",
+            "<li><a class=\"dropdown-item\" href=\"#\">Another action</a></li>",
+            "<li><a class=\"dropdown-item\" href=\"#\">Something else here</a></li>",
+            "</ul>",
+            "</div>",
+            "</div>",
+            "</div>"
+        ],
+        "description": "Creates Bootstrap 5 offcanvas code"
+    },
+    "Pagination boilerplate Bootstrap 5": {
+        "prefix": "!bs5pagination",
+        "body": [
+            "<nav aria-label=\"...\">",
+            "<ul class=\"pagination\">",
+            "<li class=\"page-item disabled\">",
+            "<a class=\"page-link\" href=\"#\" tabindex=\"-1\" aria-disabled=\"true\">Previous</a>",
+            "</li>",
+            "<li class=\"page-item\"><a class=\"page-link\" href=\"#\">1</a></li>",
+            "<li class=\"page-item active\" aria-current=\"page\">",
+            "<a class=\"page-link\" href=\"#\">2</a>",
+            "</li>",
+            "<li class=\"page-item\"><a class=\"page-link\" href=\"#\">3</a></li>",
+            "<li class=\"page-item\">",
+            "<a class=\"page-link\" href=\"#\">Next</a>",
+            "</li>",
+            "</ul>",
+            "</nav>"
+        ],
+        "description": "Creates Bootstrap 5 pagination code"
+    },
+    "Progress bar boilerplate Bootstrap 5": {
+        "prefix": "!bs5progressbar",
+        "body": [
+            "<div class=\"progress\">",
+            "<div class=\"progress-bar\" role=\"progressbar\" style=\"width: 25%;\" aria-valuenow=\"25\" aria-valuemin=\"0\" aria-valuemax=\"100\">25%</div>",
+            "</div>"
+        ],
+        "description": "Creates Bootstrap 5 progress bar code"
+    },
+    "Circular Spinner boilerplate Bootstrap 5": {
+        "prefix": "!bs5spinnercircular",
+        "body": [
+            "<div class=\"spinner-border\" role=\"status\">",
+            "<span class=\"visually-hidden\">Loading...</span>",
+            "</div>"
+        ],
+        "description": "Creates Bootstrap 5 circular spinner code"
+    },
+    "Growing Spinner boilerplate Bootstrap 5": {
+        "prefix": "!bs5spinnercgrowing",
+        "body": [
+            "<div class=\"spinner-grow\" role=\"status\">",
+            "<span class=\"visually-hidden\">Loading...</span>",
+            "</div>"
+        ],
+        "description": "Creates Bootstrap 5 growing spinner code"
+    },
+    "Toast boilerplate Bootstrap 5": {
+        "prefix": "!bs5toast",
+        "body": [
+            "<button type=\"button\" class=\"btn btn-primary\" id=\"liveToastBtn\">Show live toast</button>",
+            "<div class=\"position-fixed bottom-0 end-0 p-3\" style=\"z-index: 5\">",
+            "<div id=\"liveToast\" class=\"toast hide\" role=\"alert\" aria-live=\"assertive\" aria-atomic=\"true\">",
+            "<div class=\"toast-header\">",
+            "<img src=\"...\" class=\"rounded me-2\" alt=\"...\">",
+            "<strong class=\"me-auto\">Bootstrap</strong>",
+            "<small>11 mins ago</small>",
+            "<button type=\"button\" class=\"btn-close\" data-bs-dismiss=\"toast\" aria-label=\"Close\"></button>",
+            "</div>",
+            "<div class=\"toast-body\">",
+            "Hello, world! This is a toast message.",
+            "</div>",
+            "</div>",
+            "</div>"
+        ],
+        "description": "Creates Bootstrap 5 toast code"
+    },
+    "Tooltip boilerplate Bootstrap 5": {
+        "prefix": "!bs5tooltip",
+        "body": [
+            "<button type=\"button\" class=\"btn btn-secondary\" data-bs-toggle=\"tooltip\" data-bs-placement=\"top\" title=\"Tooltip on top\">",
+            "Tooltip on top",
+            "</button>"
+        ],
+        "description": "Creates Bootstrap 5 tooltip code"
+    },
 
 }
