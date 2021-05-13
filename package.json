@@ -2,7 +2,7 @@
     "name": "bs5snippets",
     "displayName": "bs5snippets",
     "description": "Advanced Bootstrap 5 snippets generator",
-    "version": "2.2.1",
+    "version": "2.3.1",
     "publisher": "VibhanshuGarg",
     "repository": {
         "type": "git",

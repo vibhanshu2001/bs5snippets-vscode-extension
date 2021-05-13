@@ -2,6 +2,10 @@
 
 Hey extension user, please go through these change in logs of extension if you are interested.
 
+## [2.3.1]
+
+- Updated !bs5 command
+
 ## [2.2.1]
 
 - Updated more snippets codes
