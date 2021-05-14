@@ -2,7 +2,7 @@
     "name": "bs5snippets",
     "displayName": "bs5snippets",
     "description": "Advanced Bootstrap 5 snippets generator",
-    "version": "2.3.1",
+    "version": "3.0.1",
     "publisher": "VibhanshuGarg",
     "repository": {
         "type": "git",
@@ -120,6 +120,54 @@
             },{
                 "command": "!bs5tooltip",
                 "title": "Bootstrap 5 tooltip"
+            },
+            {
+                "command": "!bs5tooltablestriped",
+                "title": "Bootstrap 5 striped table"
+            },
+            {
+                "command": "!bs5table",
+                "title": "Bootstrap 5 table"
+            },
+            {
+                "command": "!bs5tablestripeddark",
+                "title": "Bootstrap 5 table striped dark"
+            },
+            {
+                "command": "!bs5tabledark",
+                "title": "Bootstrap 5 dark table"
+            },
+            {
+                "command": "!bs5tablehover",
+                "title": "Bootstrap 5 hoverable table"
+            },
+            {
+                "command": "!bs5tablehoverdark",
+                "title": "Bootstrap 5 table hover dark"
+            },
+            {
+                "command": "!bs5tablebordered",
+                "title": "Bootstrap 5 bordered table"
+            },
+            {
+                "command": "!bs5tableborderless",
+                "title": "Bootstrap 5 borderless table"
+            },
+            {
+                "command": "!bs5tablesm",
+                "title": "Bootstrap 5 small table"
+            },
+            {
+                "command": "!bs5tableresponsive",
+                "title": "Bootstrap 5 responsive table"
+            },
+            {
+                "command": "!bs5tablecaptionbottom",
+                "title": "Bootstrap 5 caption bottom table"
+            },
+            {
+                "command": "!bs5tablecaptiontop",
+                "title": "Bootstrap 5 caption top table"
             }
         ],
         "snippets": [

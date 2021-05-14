@@ -10,7 +10,9 @@
 
 ## Features
 
-> Easily the whole code with all the cdn links will be pasted to your environment.
+> All bootstrap code at one place.
+> Now it is easy to fetch code without bothering to go to documentation.
+> Regular updates.
 
 
  ### Support
